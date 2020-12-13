@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+<android.widget.LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/team_a"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:textSize="50sp"
+
+        android:gravity="center_horizontal" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_0"
+        android:id ="@+id/addy"
+        android:textAllCaps="true"
+       android:textAlignment="center"
+        android:layout_marginTop="30dp"
+
+        android:textSize="50sp"
+        android:gravity="center_horizontal" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_3_points"
+        android:layout_marginRight="15dp"
+
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+android:onClick="add3"
+        android:padding="20dp"
+        android:gravity="center_horizontal" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+ 1 Points"
+        android:layout_marginRight="15dp"
+
+        android:layout_marginTop="30dp"
+     android:onClick="add1"
+        android:textAlignment="center"
+        android:id ="@+id/adda"
+        android:padding="20dp"
+        android:gravity="center_horizontal" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+
+        android:text="Free Points"
+     android:onClick="add2"
+        android:layout_marginTop="30dp"
+        android:id ="@+id/adds"
+        android:textAlignment="center"
+        android:padding="20dp"
+        android:gravity="center_horizontal"
+        />
+
+
+
+
+
+</android.widget.LinearLayout>
+    <android.widget.LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        tools:context=".MainActivity"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/team_b"
+            android:textAllCaps="true"
+            android:textAlignment="center"
+            android:textSize="50sp"
+
+            android:gravity="center_horizontal" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_0"
+            android:id ="@+id/poin"
+            android:textAllCaps="true"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"
+            android:textSize="50sp"
+            android:gravity="center_horizontal" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+ 3 Points"
+            android:layout_marginTop="30dp"
+            android:textAlignment="center"
+            android:onClick="athree"
+            android:padding="20dp"
+            android:gravity="center_horizontal" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+ 1 Points"
+            android:layout_marginTop="30dp"
+            android:onClick="aone"
+            android:textAlignment="center"
+
+            android:padding="20dp"
+            android:gravity="center_horizontal" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Free Points"
+            android:onClick="atwo"
+            android:layout_marginTop="30dp"
+
+            android:textAlignment="center"
+            android:padding="20dp"
+            android:gravity="center_horizontal" />
+        
+
+
+
+    </android.widget.LinearLayout>
+
+</LinearLayout>
+
+
+
+
